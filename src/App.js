@@ -1,5 +1,5 @@
 import logo from './sander-palk-low-resolution-logo-color-on-transparent-background.png';
-import picture from './IMG_20230304_115046.jpg'
+import picture from './about-me-picture.jpg'
 import './App.css';
 
 
