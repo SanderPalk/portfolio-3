@@ -60,6 +60,34 @@ section {
     padding: 5%;
 }
 
+.section-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section-heading-wrapper h1 {
+    font-size: 3em;
+    color: #E4E2E2;
+    margin: 0;
+}
+
+.section-heading-wrapper span {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #75C7E7;
+}
+
+.section-heading-wrapper hr {
+    color: #75C7E7;
+    width: 30%;
+    height: 1px;
+    background-color: #a4a4a4;
+    border: 0;
+    margin: 35px 0 0 25px;
+}
+
 
 /* INTRODUCTION */
 
@@ -122,30 +150,73 @@ section.about {
     text-align: center;
 }
 
-section.about .about-heading-wrapper {
+.section-body-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 100%;
-    height: 100%;
 }
 
-section.about h1 {
-    font-size: 3em;
-    color: #E4E2E2;
-    margin: 0;
+.section-body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 8%;
 }
 
-section.about span {
+.section-body-text p {
+    text-align: start;
+    color: #a4a4a4;
+    font-size: 1.4em;
+    width: 80%;
+    margin-bottom: 55px;
+}
+
+.section-body-wrapper span {
+    color: #75C7E7;
     font-family: 'Chakra Petch', sans-serif;
-    color: #75C7E7;
 }
 
-section.about hr {
-    color: #75C7E7;
+.section-body-image {
     width: 30%;
-    height: 1px;
-    background-color: #a4a4a4;
-    border: 0;
-    margin: 35px 0 0 25px;
+    margin-top: 8%;
 }
+
+.section-body-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #75C7E7;
+    filter: opacity(80%);
+}
+
+.section-body-wrapper img:hover {
+    transition: 0.4s;
+    box-shadow: 10px 10px 25px #75C7E7;
+    filter: none;
+}
+
+.technology-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.technology-list ul {
+    margin-right: 10%;
+    padding: 0;
+}
+
+.technology-list ul li {
+    list-style: none;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #E4E2E2;
+    font-size: 1.1em;
+}
+
+.technology-list ul li:before {
+    content: "▹";
+    color: #75C7E7;
+    margin-right: 10px;
+}
+
