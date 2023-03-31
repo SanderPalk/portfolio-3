@@ -220,3 +220,214 @@ section.about {
     margin-right: 10px;
 }
 
+
+/* EXPERIENCE */
+
+.section-experience-body-wrapper {
+    width: 70%;
+    display: flex;
+    /*background-color: #75C7E7;*/
+    margin: 10% auto 0;
+}
+
+.section-experience-menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-experience-menu button {
+    min-height: 70px;
+    font-size: 1.5em;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 0;
+    border-left: 1px solid #a4a4a4;
+    background-color: transparent;
+    padding: 20px;
+    color: #E4E2E2;
+    cursor: pointer;
+}
+
+.section-experience-menu button.active {
+    background-color: #3a384d;
+    color: #75C7E7;
+    border-left: 2px solid #75C7E7;
+}
+
+.section-experience-content {
+    color: #a4a4a4;
+    font-size: 1em;
+    width: 100%;
+    text-align: start;
+}
+
+.section-experience-content-wrapper {
+    width: 100%;
+}
+
+.section-experience-content-item {
+    border-bottom: 1px solid #6e6d6d;
+    margin-bottom: 5%;
+    padding-left: 40px;
+    width: 100%;
+}
+
+.section-experience-content-item h2{
+    color: #E4E2E2;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.section-experience-content-item .time-frame {
+    font-size: 1.1em;
+}
+
+.section-experience-content-item ul {
+    padding-left: 1%;
+}
+
+.section-experience-content-item ul li {
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+    list-style: none;
+    color: #a4a4a4;
+    font-size: 1.3em;
+    line-height: 27px;
+}
+
+.section-experience-content-item ul li:before {
+    content: "▹";
+    color: #75C7E7;
+    padding-right: 15px;
+}
+
+
+/* WORK */
+
+.section-work-body-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    width: 100%;
+    margin-top: 10%;
+    height: 100%;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a384d;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.work-item:hover {
+    background-color: #2f2e3f;
+    box-shadow: 1px 1px 25px #75C7E7;
+    transition: 0.7s;
+}
+
+.work-item-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.work-item-icon img {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+
+.work-item-icon img:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.work-item-icon img.no-link {
+    cursor: default;
+    transform: none;
+}
+
+.work-item h4 {
+    font-size: 1.7em;
+    color: #E4E2E2;
+}
+
+.work-item-text {
+    color: #a4a4a4;
+    font-size: 1.3em;
+    text-align: start;
+}
+
+.work-item-text a {
+    text-decoration: none;
+    color: #75C7E7;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.work-item-technologies {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #75C7E7;
+    font-size: 1.1em;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+
+
+/* CONTACT */
+
+.section-contact-wrapper p {
+    color: #a4a4a4;
+    font-size: 2.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.section-contact-wrapper ul li {
+    color: #E4E2E2;
+    font-size: 2em;
+    list-style: none;
+    text-align: start;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left: 35%;
+
+}
+
+.section-contact-wrapper li a {
+    color: #a4a4a4;
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+}
+
+.section-contact-wrapper li a:hover {
+    color: #75C7E7;
+}
+
+.section-contact-wrapper li img {
+    height: 25px;
+    width: auto;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 5%;
+}
+
+footer a {
+    padding-bottom: 75px;
+    color: #a4a4a4;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #75C7E7;
+}
