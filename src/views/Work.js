@@ -3,7 +3,7 @@ function Work() {
         <div className="section-experience-content-wrapper">
             <div className="section-experience-content-item">
                 <h2>Internship @ Codelive</h2>
-                <p className="time-frame">January - December 2022</p>
+                <p className="time-frame">January - Present</p>
                 <ul>
                     <li>Imported users, orders and products from client's database to Wordpress database with MariaDb
                         queries. The information amount was 300 000+ orders, 20 000+ users and over 2500 products.
@@ -16,7 +16,7 @@ function Work() {
             </div>
             <div className="section-experience-content-item">
                 <h2>Payed employment @ Codelive</h2>
-                <p className="time-frame">January - December 2022</p>
+                <p className="time-frame">June - August 2022</p>
                 <ul>
                     <li>Worked with considerable data models for investment company, mostly make big queries and reports
                         faster and more efficient.
@@ -26,7 +26,7 @@ function Work() {
             </div>
             <div className="section-experience-content-item">
                 <h2>Internship @ Codelive</h2>
-                <p className="time-frame">January - December 2022</p>
+                <p className="time-frame">April - June 2022</p>
                 <ul>
                     <li>Added back-end logic to start-up company.</li>
                     <li>Developed Wordpress pages with ACF.</li>
