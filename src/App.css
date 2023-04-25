@@ -304,6 +304,10 @@ section.about {
 
 /* WORK */
 
+section#work {
+    width: 80%;
+}
+
 .section-work-body-wrapper {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -318,7 +322,8 @@ section.about {
     flex-direction: column;
     background-color: #3a384d;
     border-radius: 10px;
-    padding: 40px;
+    padding: 40px 40px 100px;
+    position: relative;
 }
 
 .work-item:hover {
@@ -369,9 +374,15 @@ section.about {
 .work-item-technologies {
     font-family: 'Chakra Petch', sans-serif;
     color: #75C7E7;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bolder;
     word-spacing: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 

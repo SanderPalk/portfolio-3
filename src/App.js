@@ -1,6 +1,7 @@
-import logo from './sander-palk-low-resolution-logo-color-on-transparent-background.png';
+import logo from './sander-palk-logo-color-on-transparent-background.png';
 import picture from './about-me-picture.jpg'
 import './App.css';
+import './Responsive.css';
 import {useState} from "react";
 import Work from "./views/Work";
 import Schools from "./views/Schools";
@@ -157,11 +158,11 @@ function App() {
                             <a href="https://dashboard.render.com/static/srv-cghceso2qv23kcpvkbn0"><img src={link}
                                                                                                         alt="link"/></a>
                         </div>
-                        <h4>Full stack to-do application</h4>
+                        <h4>React charts component</h4>
                         <p className="work-item-text">Here I created a simple charts component where it takes data from
                             JSON file. You can hover over individual components and see their values, also current day
                             is always highlighted. This project was to try out different React libraries.</p>
-                        <p className="work-item-technologies">React Recharts</p>
+                        <p className="work-item-technologies">React Recharts CSS</p>
                     </div>
                     <div className="work-item">
                         <div className="work-item-icon">
