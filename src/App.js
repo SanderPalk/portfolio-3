@@ -48,7 +48,8 @@ function App()
           <h3>Nice to meet you, I am</h3>
           <h1>Sander Palk.</h1>
           <h2>I'm young, hungry and eager to learn.</h2>
-          <p><span>I'm</span> a 23-year-old software developer with a specialization in <span>web development</span>. I also love to be physically active and I'm, <span>always</span> ready to take on new challenges.<br/>
+          <p><span>I'm</span> a 23-year-old software developer with a specialization in <span>web development</span>. I also love to be physically active and I'm <span>always</span> ready to take on
+            new challenges.<br/>
           </p>
           <div className="contact-me-button">
             <a href="#contact">Contact me</a>
@@ -68,18 +69,18 @@ function App()
             <p>
               For nearly a <span>year</span>, I've been an integral part of a professional software development team, where I've contributed to the creation of large-scale projects using technologies
               such as <span>Vue
-              Ionic</span>, <span>Codeigniter 4</span>, and <span>Laravel</span>.
+              Ionic</span>, <span>Codeigniter 4</span> and <span>Laravel</span>.
               <br/><br/>
               In addition to my team contributions, I've also been involved in a variety of <span>e-commerce</span> solutions, ranging from smaller to more substantial projects, all built on the
               foundation of <span>WordPress WooCommerce</span>.
               <br/><br/>
-              My expertise extends to developing <span>full-stack applications</span> from scratch. I've worked with technologies like <span>React</span>, <span>Node.js</span>, <span>MongoDB</span>,
+              My expertise extends to developing <span>full-stack applications</span> from scratch. I've worked with technologies like <span>React</span>, <span>Node.js</span>, <span>MongoDB </span>
               and <span>Java</span>, giving me a diverse skill set to draw from.
               <br/><br/>
               Furthermore, I've gained valuable experience in larger development projects, working in professional teams. This has allowed me to hone my skills with tools like <span>Bootstrap</span>,
-              <span>MariaDB</span>/<span>MySQL</span>, and <span>PHP</span> frameworks.
+              <span> MariaDB</span>/<span>MySQL</span> and <span>PHP</span> frameworks.
               <br/>
-              I'm dedicated to delivering high-quality software solutions and continuously expanding my knowledge in the dynamic field of web development."
+              I'm dedicated to delivering high-quality software solutions and continuously expanding my knowledge in the dynamic field of web development.
             </p>
 
             <p>

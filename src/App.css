@@ -397,13 +397,18 @@ section#work {
 }
 
 
+.section-contact-wrapper ul {
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .section-contact-wrapper ul li {
     color: #E4E2E2;
     font-size: 2em;
     list-style: none;
     text-align: start;
     font-family: 'Chakra Petch', sans-serif;
-    padding-left: 35%;
+    /*padding-left: 35%;*/
 
 }
 
