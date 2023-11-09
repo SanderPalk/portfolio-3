@@ -188,6 +188,7 @@ section.about {
     border-radius: 5px;
     background-color: #75C7E7;
     filter: opacity(80%);
+    transition: 0.4s;
 }
 
 .section-body-wrapper img:hover {

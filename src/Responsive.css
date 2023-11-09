@@ -1,69 +1,4 @@
-/*@media screen and (max-width: 1800px) {*/
-/*    section#work {*/
-/*        width: 70%;*/
-/*    }*/
-/*    .section-work-body-wrapper {*/
-/*        display: grid;*/
-/*        grid-template-columns: auto auto;*/
-/*        gap: 5%;*/
-/*        margin-bottom: 35%;*/
-/*    }*/
-/*    .section-contact-wrapper ul li {*/
-/*        padding-left: 15%;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 1285px) {*/
-/*    section#work {*/
-/*        width: 85%;*/
-/*    }*/
-/*    .section-work-body-wrapper {*/
-/*        gap: 2%;*/
-/*        margin-bottom: 15%;*/
-/*    }*/
-/*    section.introduction p {*/
-/*        width: 80%;*/
-/*    }*/
-/*    .section-contact-wrapper ul li {*/
-/*        padding-left: 10%;*/
-/*    }*/
-/*    .section-experience-body-wrapper {*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 1032px) {*/
-/*    .App {*/
-/*        width: 98%;*/
-/*    }*/
-/*    section.introduction h3 {*/
-/*        font-size: 1.2em;*/
-/*    }*/
-/*    section.introduction h1 {*/
-/*        font-size: 4em;*/
-/*    }*/
-/*    section.introduction h2 {*/
-/*        font-size: 1.9em;*/
-/*    }*/
-/*    section.introduction p {*/
-/*        font-size: 1.4em;*/
-/*        width: 90%;*/
-/*    }*/
-/*    .section-contact-wrapper ul li {*/
-/*        padding-left: 5%;*/
-/*    }*/
-/*    .section-heading-wrapper hr {*/
-/*        width: 20%;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 776px) {*/
-/*    nav a {*/
-/*        padding: 5px;*/
-/*    }*/
-/*}*/
-
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 991px) {
     .App {
         width: 99%;
         margin: 0 auto;
@@ -75,8 +10,9 @@
     }
 
     header {
-        background-color: #282634;
+        background-color: #282637;
         justify-content: center;
+        width: 100%;
     }
 
     nav a {
@@ -101,6 +37,7 @@
     section.introduction {
         height: fit-content;
         margin-bottom: 10%;
+        margin-top: 5%;
     }
 
     section.introduction h3 {
